@@ -1,5 +1,5 @@
 # Tocando Bot
-This Discord bot, written in Node.js, is a very simple music bot. It can play any audio file or audio stream that can be accessed on the internet. If you want an easy way to play a file from one's computer, the file can be uploaded to Discord, and the link can be used to play it. It has no queue, and no YouTube support(though I plan to add both at some point in the future). 
+This Discord bot, written in Node.js, is a very simple music bot. It can play any audio file or audio stream that can be accessed on the internet. If you want an easy way to play a file from one's computer, the file can be uploaded to Discord, and the link can be used to play it. It has no queue, and no YouTube support(though I plan to add both at some point in the future). This bot was written in February 2021 and uploaded to GitHub in September 2021.
 
 ## Commands
 $help - displays a help message
