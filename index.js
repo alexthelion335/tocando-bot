@@ -89,7 +89,7 @@ async function execute(message) {
   ua.call(target);*/
     var connection = await voiceChannel.join();
     
-    if (url.includes("youtube") || url.includes("youtu.be") {
+    if (url.includes("youtube") || url.includes("youtu.be")) {
 	const dispatcher = connection.play(await ytdl(url), { type: 'opus' });
     } else {
 	const dispatcher = connection.play(target);
