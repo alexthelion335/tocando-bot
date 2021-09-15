@@ -80,15 +80,21 @@ async function execute(message) {
     return;
   }
   //message.channel.send("Calling");
-  var target = args[1];
+  var url = args[1];
   /*var ua = new JsSIP.UA(configuration);
   //start sip connection
   //var connection = await voiceChannel.join();
   voiceChannel.join();
   ua.start();
   ua.call(target);*/
-  var connection = await voiceChannel.join();
-  const dispatcher = connection.play(target);
+    var connection = await voiceChannel.join();
+    
+    if (url.includes("youtube") || url.includes("youtu.be") {
+	const dispatcher = connection.play(await ytdl(url), { type: 'opus' });
+    } else {
+	const dispatcher = connection.play(target);
+    }
+	
   /*const audio = connection.receiver.createStream('448560538142769163', { mode: 'pcm' });
   audio.pipe(fs.createWriteStream('user_audio'));*/
 }
