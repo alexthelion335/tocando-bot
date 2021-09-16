@@ -55,15 +55,9 @@ client.on('message', async message => {
     message.channel.send("I have been disconnected from the voice channel.");
   }
   if (message.content.startsWith(`${prefix}help`)) {
-    message.channel.send("$help - displays this help message");
-    message.channel.send("$about - gives an about message");
-    message.channel.send("$play [url] - plays a song with url(only audio files are supported)");
-    message.channel.send("$stop - makes Tocando leave the channel");
-  }
+    message.channel.send("$help - displays this help message\n$about - gives an about message\n$play [url] - plays a song with url(only audio files and YouTube links are supported)\n$stop - makes Tocando leave the channel");
   if (message.content.startsWith(`${prefix}about`)) {
-    message.channel.send("The Tocando bot will play any audio file you have the link to.");
-    message.channel.send("To be added: Queue, Youtube support");
-    message.channel.send("(c) Alex Kinch 2021");
+    message.channel.send("The Tocando bot will play any audio file you have the link to.\nTo be added: Queue\nTocando-Bot v1.1b\n(c) Alex Kinch 2021");
   }
 })
 
