@@ -4,7 +4,7 @@ This Discord bot, written in Node.js, is a very simple music bot. It can play an
 ## Commands
 $help - displays a help message
 <br>$about - gives an about message
-<br>$play [url] - plays a song with url(only audio files are supported, no YouTube links)
+<br>$play [url] - plays a song with url(only audio files and YouTube links are supported) or searches YouTube for the song
 <br>$stop - makes Tocando leave the channel
 
 ## Dependencies
