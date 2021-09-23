@@ -8,4 +8,4 @@ $help - displays a help message
 <br>$stop - makes Tocando leave the channel
 
 ## Dependencies
-This bot requires discord.js, ytdl-core, and ytsr.
+This bot requires discord.js@12.5.3, @discordjs/opus, ytdl-core, and ytsr.
