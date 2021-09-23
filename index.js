@@ -44,6 +44,7 @@ client.on('message', async message => {
   }
   if (message.content.startsWith(`${prefix}help`)) {
     message.channel.send("$help - displays this help message\n$about - gives an about message\n$play [url] - plays a song with url(only audio files and YouTube links are supported) or searches YouTube for the song\n$stop - makes Tocando leave the channel");
+  }
   if (message.content.startsWith(`${prefix}about`)) {
     message.channel.send("The Tocando bot will play any audio file you have the link to.\nTo be added: Queue\nTocando-Bot v1.2\n(c) Alex Kinch 2021");
   }
