@@ -68,7 +68,7 @@ async function execute(message) {
     var connection = await voiceChannel.join();
     
     if (url.includes("youtube") || url.includes("youtu.be")) {
-	const dispatcher = connection.play(await ytdl(url), { type: 'opus' });
+	const dispatcher = connection.play(await ytdl(url), { quality: 'audioonly', type: 'opus' });
     } else if (url.includes("http")) {
     	const dispatcher = connection.play(url);
     } else {
